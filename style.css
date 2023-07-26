@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./img/c1\ \(3\).jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 44px;
+    line-height: 24px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+    text-size-adjust: 100%;
+    width: 960px;
+}
+.scroll{
+    background-color: aliceblue;
+    box-shadow: .1rem .2rem .3rem #333;
+}
+        
+.scroll h1{
+    color: #141C29;
+}
+
+.header h1{
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 44.832px;
+    margin-block-end: 8px;
+    margin-block-start: 0px;
+    margin-bottom: 8px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-top: 0px;
+    text-align: center;
+    text-size-adjust: 100%;
+}
+
+.container{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 419.47px;
+    line-height: 24px;
+    margin-left: 25px;
+    margin-right: 25px;
+    max-width: 960px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: start;
+    text-size-adjust: 100%;
+    width: 960px;
+}
+
+.container-formulario{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 419.47px;
+    line-height: 24px;
+    margin-bottom: 48px;
+    max-width: 960px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: start;
+    width: 936px;
+}
+
+
+.container .row{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-weight: 400;
+    height: 293px;
+    line-height: 24px;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-top: 0px;
+    text-align: start;
+    text-size-adjust: 100%;
+    width: 936px;
+}
+
+.container .row .form{
+    display: block;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: 400;
+    height: 293px;
+    line-height: 24px;
+    margin-top: 0px;
+    max-width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: start;
+    text-size-adjust: 100%;
+    width: 936px;
+    display: block;
+}
+
+.container .row .elem-group{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 69.0667px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    text-align: start;
+    text-size-adjust: 100%;
+
+}
+
+.container .row .elem-group label{
+    cursor: default;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: start;
+}
+
+.container .row .elem-group input{
+    background-color: rgba(237, 235, 235, 0.923);
+    border-color: rgb(222, 226, 230);
+    border-radius: 6px;
+    color: rgb(29, 32, 35);
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    height: 37px;
+    line-height: 24px;
+    margin: 0px;
+    padding: 6px 12px;
+    text-align: start;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.15s, 0.15s;
+    transition: ease-in-out;
+    width: 912px;
+    border-style:  none;
+    outline: none;
+
+
+}
+/*botton*/
+.container .form button{
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(8, 80, 196, 0.848);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    height: 37px;
+    margin: 0px;
+    padding: 6px 12px;
+    outline: none;
+    border: none;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition: background-color 3.s ease-in-out;
+}
+.container .form button:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+#btnUpdate{
+    display: none;
+}
+
+hr{
+    margin: 16px 0px;
+}
+.table-datos{
+    border-collapse: collapse;
+    border-color: rgb(189, 192, 194);
+    background-color: rgba(237, 235, 235, 0.923);
+    display: table;
+    font-size: 16px;
+    font-weight: 400;
+    height: 41px;
+    line-height: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+    text-indent: 0px;
+    vertical-align: top;
+    width: 912px;
+}
+
+.table-datos th{
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-collapse: collapse;
+    border-color: rgb(222, 226, 230);
+    border-width: 0 1px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;
+    color: rgb(33, 37, 41);
+    font-size: 16px;
+    font-weight: 700;
+    height: 40.5333px;
+    line-height: 24px;
+    padding: 8px;
+    text-align: left;
+    text-indent: 0px;
+    vertical-align: bottom;
+    width: 250px;
+    caption-side: bottom;
+    display: table-cell;
+}
+
+#td{
+    background-color: rgb(255, 255, 255);
+    border:  solid;
+    border-collapse: collapse;
+    border-color: rgb(222, 226, 230);
+    border-width: 0 1px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;
+    color: rgb(33, 37, 41);
+    font-size: 16px;
+    font-weight: 700;
+    height: 40.5333px;
+    line-height: 24px;
+    padding: 8px;
+    text-align: left;
+    text-indent: 0px;
+    vertical-align: bottom;
+    width: 250px;
+    display: table-cell;
+}
+
+#tr{
+    border: solid;
+}
+
+
+#btn btn-warning{
+    background-color: rgb(86, 71, 218);
+}
+
+.btn-eliminar{
+    background-color: red;
+}
