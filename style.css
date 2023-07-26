@@ -189,64 +189,39 @@ hr{
     margin: 16px 0px;
 }
 .table-datos{
-    border-collapse: collapse;
-    border-color: rgb(189, 192, 194);
-    background-color: rgba(237, 235, 235, 0.923);
-    display: table;
+    border-style: solid;
+    border-color: rgb(222, 226, 230);
+    color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
     height: 41px;
     line-height: 24px;
     margin-bottom: 16px;
-    text-align: center;
+    text-align: start;
     text-indent: 0px;
     vertical-align: top;
     width: 912px;
 }
+.tr{
+    border-color: rgb(222, 226, 230);
+    border-width: 0 0.533333px;
+    color: rgb(255, 255, 255);
+    display: table-row; 
+}
+
 
 .table-datos th{
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    border-collapse: collapse;
-    border-color: rgb(222, 226, 230);
+    background-color: rgba(237, 235, 235, 0.923);  
     border-width: 0 1px;
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;
     color: rgb(33, 37, 41);
     font-size: 16px;
     font-weight: 700;
     height: 40.5333px;
     line-height: 24px;
     padding: 8px;
-    text-align: left;
+    text-align: start;
     text-indent: 0px;
-    vertical-align: bottom;
     width: 250px;
-    caption-side: bottom;
-    display: table-cell;
-}
-
-#td{
-    background-color: rgb(255, 255, 255);
-    border:  solid;
-    border-collapse: collapse;
-    border-color: rgb(222, 226, 230);
-    border-width: 0 1px;
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 9999px inset;
-    color: rgb(33, 37, 41);
-    font-size: 16px;
-    font-weight: 700;
-    height: 40.5333px;
-    line-height: 24px;
-    padding: 8px;
-    text-align: left;
-    text-indent: 0px;
-    vertical-align: bottom;
-    width: 250px;
-    display: table-cell;
-}
-
-#tr{
-    border: solid;
 }
 
 
@@ -254,6 +229,6 @@ hr{
     background-color: rgb(86, 71, 218);
 }
 
-.btn-eliminar{
+.btn-btn-danger{
     background-color: red;
 }
