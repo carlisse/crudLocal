@@ -7,3 +7,49 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+<body>
+    <header class="header">
+        <h1>Crud Local</h1>
+    </header>
+    
+    <div class="container">
+        <div class="container-formulario">
+            <div class="row">
+                <form class="form" id="formulario">
+                    <div class="elem-group">
+                        <label class="form-label">Nombre Completo</label>
+                        <input type="name" id="inputName" placeholder="Igresa un Nombre">
+                    </div>
+                    <div class="elem-group">
+                        <label class="form-label">Email</label>
+                        <input type="email" id="inputEmail" placeholder="Igresa un Correo">
+                    </div>
+                    <div class="elem-group">
+                        <label class="form-label">Telefono</label>
+                        <input type="text" id="inputPhone" placeholder="Igresa un Telefono">
+                    </div>
+                    <button type="submit" class="btn" id="btnAdd" onclick="AddData()">Enviar</button>
+                    <button type="submit" class="btn" id="btnUpdate">Actualizar</button>
+                </form>
+            </div>
+            <hr>
+            <table class="table-datos" id="tableData">
+                <thead>
+                    <tr>
+                        <th>Nombre Completo</th>
+                        <th>Correo</th>
+                        <th>Telefono</th>
+                        <th></th>
+                    </tr>
+                </thead>
+            <tbody>
+
+            </tbody>
+            </table>
+        </div>
+
+    </div>
+
+  <script src="./app.js"></script>  
+</body>
+</html>
