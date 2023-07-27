@@ -189,7 +189,7 @@ hr{
     margin: 16px 0px;
 }
 .table-datos{
-    background-color: rgba(237, 235, 235, 0.747);
+    background-color: rgba(237, 235, 235, 0.955);
     border-style: solid;
     border-color: rgb(222, 226, 230);
     color: rgb(33, 37, 41);
@@ -212,7 +212,7 @@ hr{
 
 
 .table-datos th{
-    background-color: rgba(237, 235, 235, 0.923);  
+    background-color: rgba(237, 235, 235, 0.988);  
     border-width: 0 1px;
     color: rgb(33, 37, 41);
     font-size: 16px;
@@ -226,10 +226,42 @@ hr{
 }
 
 
-#btn btn-warning{
-    background-color: rgb(86, 71, 218);
+
+.btn-warning{
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(41, 141, 2, 0.848);
+    font-size: 15px;
+    font-weight: 400;
+    height: 30px;
+    margin-left: 10px;
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition: background-color 3.s ease-in-out;
+}
+.btn-warning:hover{
+    cursor: pointer;
+    background-color: rgb(24, 65, 4);
 }
 
-.btn-btn-danger{
-    background-color: red;
+
+.btn-danger{
+    background-color: rgb(234, 17, 9);
+    border-radius: 6px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    height: 30px;
+    margin-left: 10px;
+    padding: 0 8px;
+    outline: none;
+    border: none;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+    transition: background-color 3.s ease-in-out;
+}
+.btn-danger:hover{
+    cursor: pointer;
+    background-color: rgb(148, 33, 1);
 }

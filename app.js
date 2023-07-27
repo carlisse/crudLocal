@@ -44,7 +44,8 @@ function readData() {
         html += "<td>"+ element.name + "</td>";
         html += "<td>"+ element.email + "</td>";
         html += "<td>"+ element.phone + "</td>";
-        html += '<td><button onclick="deleData('+ index +')" class="btn btn-danger">Eliminar</button><button onclick="editData('+ index +')" class="btn btn-warning">Editar</button></td>';
+        html += '<td><button onclick="deleData('+ index +')" class="btn-danger">Eliminar</button>';
+        html += '<button onclick="editData('+ index +')" class="btn-warning">Editar</button></td>';
         html += "</tr>";
     });
 
